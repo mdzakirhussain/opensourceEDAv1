@@ -1,8 +1,10 @@
 Steps to install and run on UBUNTU:
 1) sudo apt-get install git
 2) git clone https://github.com/mdzakirhussain/opensourceEDAv1.git
+3) cd opensourceEDAv1
 3) chmod 777 opensource_eda_tool_install.sh
 4) sudo ./opensource_eda_tool_install.sh 
+5) chmod 777 vsdflow
 **NOTE for freshers : This has been tested on a fresh UBUNTU installtion
 **NOTE for experienced UNIX users : It has lot of sudo apt-get and sudo remove commands, so you might want to review before running
 5) ./vsdflow spi_slave_design_details.csv
