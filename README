@@ -10,8 +10,21 @@ Steps to install and run on UBUNTU:
 5) ./vsdflow spi_slave_design_details.csv
 6) ./vsdflow picorv32_design_details.csv
 
+*********************
+Steps to install and run on Centos:
+1) sudo yum install git
+2) git clone https://github.com/mdzakirhussain/opensourceEDAv1.git
+3) cd opensourceEDAv1
+3) chmod 777 opensource_eda_tool_install_centos.sh
+4) sudo ./opensource_eda_tool_install_centos.sh 
+5) chmod 777 vsdflow
+**NOTE for freshers : This has been tested on a fresh UBUNTU installtion
+**NOTE for experienced UNIX users : It has lot of sudo apt-get and sudo remove commands, so you might want to review before running
+5) ./vsdflow spi_slave_design_details.csv
+6) ./vsdflow picorv32_design_details.csv
 
-Steps to test 'vsdflow' on Ubuntu:
+********************************
+Steps to test 'vsdflow' on Ubuntu and Centos:
 1) cd outdir_spi_slave
 2) qflow display spi_slave
 
